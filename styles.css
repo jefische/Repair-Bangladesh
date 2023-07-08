@@ -1,20 +1,35 @@
-body,
 html {
   width: 100%;
   height: 100%;
-  background: url(art-medium.jpg) no-repeat center center fixed;
-  background-size: cover;
+}
+
+body {
+  background: url(bangladesh-fields.jpg);
+/*  background-size: cover;*/
 }
 
 h1 {
   font-size: 3rem;
-  color: #058282;
+/*  color: #058282;*/
 /*  text-transform: uppercase;*/
+  color: whitesmoke;
   text-align: center;
+  -webkit-text-stroke: 2px black; 
 }
 
 .flag {
   display: flex;
   justify-content: center;
   height: 10em;
+}
+
+.container-fluid {
+/*  background-color: #006a4e;*/
+}
+
+.buffer {
+  height: 3rem;
+}
+.buffer2 {
+  height: 5rem;
 }
